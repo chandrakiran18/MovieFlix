@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: rgb(255, 255, 255);
+            overflow: hidden;
+            display: flex;
+            border: solid thick black;
+            border-radius: 40px;
+        }
+
+        .navbar a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        .navbar a:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+        }
+
+        .navbar #logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar .menu {
+            display: flex;
+            margin-left: auto;
+        }
+
+        .navbar button:hover {
+            background-color: rgb(233, 255, 87);
+            color: rgb(0, 0, 0);
+        }
+
+        body {
+            background-color: black;
+        }
+
+        button {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .action {
+            border: 0px solid white;
+            border-radius: 10px;
+            margin: 20px;
+            background-color: slategray;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+        }
+        .button{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border: none;
+            margin: 7px;
+        }
+        img {
+            width: 200px;
+            height: 300px;
+            border: 3px solid white;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        .action h2 {
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            border: 2px solid black;
+        }
+        img:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="about.html" id="logo">MovieFlix</a>
+        <div class="menu">
+            <a href="#"><button>Home</button></a>
+            <a href="contact.html"><button>Contact us</button></a>
+            <a href="about.html"><button>About</button></a>
+            <a href="#COPYRIGHTS"><button>COPYRIGHTS</button></a>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="#HOLLYWOOD"><button class="button">HOLLYWOOD</button></a>
+        <a href="#TOLLYWOOD"><button class="button">TOLLYWOOD</button></a>
+        <a href="#KOLLYWOOD"><button class="button">KOLLYWOOD</button></a>
+        <a href="#BOLLYWOOD"><button class="button">BOLLYWOOD</button></a>
+        <a href="#SCIENCE FICTION"><button class="button">SCIENCE FICTION</button></a>
+        <a href="#HORROR"><button class="button">HORROR</button></a>
+        <a href="#K-DRAMA"><button class="button">K-DRAMA</button></a>
+        <a href="#WEB-SERIES"><button class="button">WEB-SERIES</button></a>
+        <a href="#ANIME"><button class="button">ANIME</button></a>
+        <a href="#TRENDING"><button class="button">TRENDING</button></a>
+    </div>
+    <div class="category action">
+        <h2 id="HOLLYWOOD">HOLLYWOOD</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt1160419/"><img
+                    src="https://tse1.mm.bing.net/th?id=OIP.Jl-oyaForlPDqAFpi2aA_wHaJQ&w=474&h=474&c=7"
+                    title="Dune: Part Two"></a>
+            <a href="https://www.imdb.com/title/tt6791350/"><img
+                    src="https://image.tmdb.org/t/p/original/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg"
+                    title="Guardians of the Galaxy Vol. 3"></a>
+            <a href="https://www.imdb.com/title/tt9362722/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg"
+                    title="Spider-Man: Across the Spider-Verse"></a>
+        </div>
+    </div>
+
+    <div class="category action">
+        <h2 id="TOLLYWOOD">TOLLYWOOD</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt8178634/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg"
+                    title="RRR"></a>
+            <a href="https://www.imdb.com/title/tt9389998/?ref_=nv_sr_srsg_0_tt_2_nm_0_in_0_q_pushpa%2520the%2520rise"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/7/75/Pushpa_-_The_Rise_%282021_film%29.jpg"
+                    title="Pushpa: The Rise"></a>
+            <a href="https://www.imdb.com/title/tt13927994/?ref_=fn_all_ttl_1"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/a/a6/Salaar_Part_1_%E2%80%93_Ceasefire.jpg"
+                    title="Salaar"></a>
+        </div>
+    </div>
+
+    <div class="category action">
+        <h2 id="KOLLYWOOD">KOLLYWOOD</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt9179430/?ref_=nv_sr_srsg_3_tt_3_nm_5_in_0_q_vikram"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/9/93/Vikram_2022_poster.jpg"
+                    title="Vikram"></a>
+            <a href="https://www.imdb.com/title/tt10579952/?ref_=nv_sr_srsg_9_tt_8_nm_0_in_0_q_master"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/5/53/Master_2021_poster.jpg"
+                    title="Master"></a>
+            <a href="https://www.imdb.com/title/tt9900782/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_kaithi"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/7/79/Kaithi_2019_poster.jpg"
+                    title="Kaithi"></a>
+        </div>
+    </div>
+    <div class="category action">
+        <h2 id="BOLLYWOOD">BOLLYWOOD</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt13751694/?ref_=fn_all_ttl_3"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/9/90/Animal_%282023_film%29_poster.jpg"
+                    title="Animal"></a>
+            <a href="https://www.imdb.com/title/tt15354916/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/3/39/Jawan_film_poster.jpg"
+                    title="Jawan"></a>
+            <a href="https://www.imdb.com/title/tt12844910/?ref_=nv_sr_srsg_1_tt_4_nm_3_in_0_q_pathaan"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/c/c3/Pathaan_film_poster.jpg"
+                    title="Pathaan"></a>
+        </div>
+    </div>
+    <div class="category action">
+        <h2 id="SCIENCE FICTION">SCIENCE FICTION</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt0816692/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg"
+                    title="Interstellar"></a>
+            <a href="https://www.imdb.com/title/tt2543164/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg"
+                    title="Arrival"></a>
+            <a href="https://www.imdb.com/title/tt7605074/?ref_=nv_sr_srsg_3_tt_7_nm_0_in_0_q_the%2520wander"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/1/1b/The_Wandering_Earth_film_poster.jpg"
+                    title="The Wandering Earth"></a>
+        </div>
+    </div>
+    <div class="category action">
+        <h2 id="HORROR">HORROR</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt7784604/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/d/d9/Hereditary.png"
+                    title="Hereditary"></a>
+            <a href="https://www.imdb.com/title/tt1457767/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/8/8c/The_Conjuring_poster.jpg"
+                    title="The Conjuring"></a>
+            <a href="https://www.imdb.com/title/tt6644200/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_a%2520quiet%2520"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png"
+                    title="A Quiet Place"></a>
+        </div>
+    </div>
+    <div class="category action">
+        <h2 id="K-DRAMA">K-DRAMA</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt10850932/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_crash%2520landing%2520"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/6/64/Crash_Landing_on_You_main_poster.jpg"
+                    title="Crash Landing on You"></a>
+            <a href="https://www.imdb.com/title/tt1512310/?ref_=nv_sr_srsg_8_tt_7_nm_1_in_0_q_goblin"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/6/6b/Goblin_FilmPoster.jpeg"
+                    title="Goblin"></a>
+            <a href="https://www.imdb.com/title/tt11239552/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_iteawon"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/9/99/Itaewon_Class.jpg"
+                    title="Itaewon Class"></a>
+        </div>
+    </div>
+    <div class="category action">
+        <h2 id="WEB-SERIES">WEBSERIES</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt0903747/"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/300px-Breaking_Bad_logo.svg.png"
+                    title="Breaking Bad"></a>
+            <a href="https://www.imdb.com/title/tt1475582/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Sherlock_titlecard.jpg/330px-Sherlock_titlecard.jpg"
+                    title="Sherlock"></a>
+            <a href="https://www.imdb.com/title/tt2861424/"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/330px-Rick_and_Morty.svg.png"
+                    title="Rick and Morty"></a>
+        </div>
+    </div>
+    <div class="category action">
+        <h2 id="ANIME">ANIME</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt9335498/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg"
+                    title="Demon Slayer: Kimetsu no Yaiba"></a>
+            <a href="https://www.imdb.com/title/tt0877057/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_deathnote"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg"
+                    title="Death Note"></a>
+            <a href="https://www.imdb.com/title/tt2560140/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg"
+                    title="Attack on Titan"></a>
+        </div>
+    </div>
+    <div class="category action">
+        <h2 id="TRENDING">TRENDING</h2>
+        <div class="image-container">
+            <a href="https://www.imdb.com/title/tt1517268/"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg"
+                    title="Barbie"></a>
+            <a href="https://www.imdb.com/title/tt15398776/?ref_=nv_sr_srsg_0_tt_3_nm_5_in_0_q_oppenheimer"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg"
+                    title="Oppenheimer"></a>
+            <a href="https://www.imdb.com/title/tt10676048/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520marvals"><img
+                    src="https://upload.wikimedia.org/wikipedia/en/7/7a/The_Marvels_poster.jpg"
+                    title="The Marvels"></a>
+        </div>
+    </div>
+    <section>
+        <footer id="COPYRIGHTS">
+            <div style="color: white; background-color: red; padding: 10px; margin-top: 20px; border: 2px solid red;">
+                <p>&copy; 2025 MovieFlix. All Rights Reserved.</p>
+                <p>Website created by Bobbadi Chandra Kiran</p>
+                <a href="#logo"><button>Back to top</button></a>
+            </div>
+        </footer>
+    </section>
+    
+</body>
+
+</html>

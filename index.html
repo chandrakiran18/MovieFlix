@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register to MoiveFlix</title>
+    <style>
+        body {
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+
+        form {
+            border: 5px double firebrick;
+            border-radius: 10px;
+            background-color: rgb(43, 70, 58);
+            margin-left: 500px;
+            margin-right: 500px;
+            font-size: large;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            line-height: 30px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .submit {
+            font-size: large;
+            background-color: aqua;
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+
+        .reset {
+            font-size: large;
+            background-color: aqua;
+            font-weight: bolder;
+            margin-left: 10px;
+        }
+
+        .mailto {
+            font-size: large;
+            font-weight: bolder;
+            color: white;
+        }
+
+        #mail:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+        }
+        button p a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="main.html" method="post">
+        <h1 style="font-family:  arial-black,gadget,sans-serif;"><br> register to <b
+                style="font-weight: bold;font-family: cursive;">MoiveFlix</b></br></h1>
+
+        <label for="1">Name</label>
+        <input type="text" id="1" required autofocus>
+        <br><br>
+        <label for="2">Mobile No.</label>
+        <input type="tel" id="2" required autofocus>
+        <br><br>
+        <label for="3">Email</label>
+        <input type="email" id="3" required placeholder="emample@mail.com">
+        <br><br>
+        <label for="4">password</label>
+        <input type="password" id="4" required>
+        <br><br>
+        <label><input type="checkbox" value="reading" required>Terms and conditions</label>
+        <br><br>
+        <button>
+            <p title="by clicking on this website you can mail us"><a href="mailto:chandrakiranbobbadi@gmail.com">click
+                    here to Mail us</a></p>
+        </button>
+        <input type="submit" value="Submit" class="submit" required>
+        <input type="reset" value="Reset" class="reset" required>
+        <br><br>
+
+    </form>
+</body>
+
+</html>
